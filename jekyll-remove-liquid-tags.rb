@@ -1,0 +1,1 @@
+require "remove_liquid_tags"
