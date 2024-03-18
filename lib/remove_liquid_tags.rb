@@ -1,7 +1,8 @@
 module Jekyll
     module RemoveLiquidTagsFilter
         def remove_liquid_tags(input)
-            input.to_s.gsub("/{%.*?%}/m", '').gsub("/{{.*?}}/m", '')
+            cleaned_input = input.to_s.gsub(/{%.*?%}/m, '')
+            cleaned_input
         end
     end
 end
