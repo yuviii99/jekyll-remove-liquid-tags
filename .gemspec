@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
     spec.name          = "jekyll-remove-liquid-tags"
-    spec.version       = "1.0.0"
+    spec.version       = "1.0.1"
     spec.authors       = ["Yuvraj Singh Rana"]
     spec.email         = ["yuvraj.rana@anu.edu.au", "ranayuvraj99@gmail.com"]
   
